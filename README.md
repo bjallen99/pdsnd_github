@@ -23,4 +23,6 @@ This project was generated as part of the program requirements for the: Udacity 
 
 ### Contacts
 
-If you would like to know more about this project, please contact BJ Allen - bjallen@return0.org.au
+If you would like to know more about this project, please contact:
+**Name**: BJ Allen
+**Email**: bjallen@return0.org.au 
