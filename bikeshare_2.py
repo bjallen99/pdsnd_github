@@ -44,7 +44,7 @@ def get_filters():
             print("That is not a valid entry - please try again")  # otherwise, prompt user for another entry and restart loop
             continue
 
-    print('-'*40) # print pretty line under title!
+    print('-'*40) # print line under the title to improve readbility
     return city, month, day
 
 def load_data(city, month, day):
