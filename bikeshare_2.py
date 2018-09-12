@@ -20,7 +20,7 @@ def get_filters():
 
     while True:
             try:
-                city = str(input("Please enter the city you would like to explore (chicago, new york city, washington): ")).lower()
+                city = str(input("Please enter the city to explore (chicago, new york city, washington): ")).lower()
                 contains_city = CITY_DATA[city]
                 break # if no exceptions, break from loop
             except:
