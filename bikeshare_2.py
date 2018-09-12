@@ -20,19 +20,19 @@ def get_filters():
 
     while True:
             try:
-                city = str(input("Please enter the city to explore (chicago, new york city, washington): ")).lower()
+                city = str(input("Please enter the city you would like to explore (chicago, new york city, washington): ")).lower()
                 contains_city = CITY_DATA[city]
                 break # if no exceptions, break from loop
             except:
-                print("That is not a valid entry - please try again") # otherwise, prompt user for another entry and restart loop
+                print("That is not a valid city entry - please try again") # otherwise, prompt user for another entry and restart loop
                 continue
     # get user input for month (all, january, february, ... , june)
     while True:
-        month = str(input("Please enter the month to explore (all, january, february... , june): ")).lower()
+        month = str(input("Please enter the month you would like to explore (all, january, february... , june): ")).lower()
         if month in ("all", "january", "february", "march", "april", "may", "june"):
             break # if 'month' is in list, break from loop
         else:
-            print("That is not a valid entry - please try again") # otherwise, prompt user for another entry and restart loop
+            print("That is not a valid month entry - please try again") # otherwise, prompt user for another entry and restart loop
             continue
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
