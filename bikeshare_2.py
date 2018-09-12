@@ -85,7 +85,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel.
+    """Displays statistics on the most popular day and hour of travel.
 
     Args:
         (df) bikeshare data df with columns: Start Time, End Time, Trip Duration, Start Station, End Station, User           Type, Gender, Birth Year)
